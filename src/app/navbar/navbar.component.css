@@ -11,7 +11,12 @@
   border-right: 2px solid grey;
   position: absolute;
 }
-
+.mobileleftsection{
+  position: absolute;
+  width: 20%;
+  left: 80%;
+  top:5vh;
+}
 
 .facebookicon{
   position: absolute;
@@ -38,4 +43,51 @@
   width: 180px;
   padding-top: 5vh;
   font-size: 25px;
+}
+.roundblackbutton{
+  background-color: rgba(0,0,0,0.6);position: fixed;top: 30vh;left: 15%;width: 20vw;height: 20vw;border-radius: 50%;color: white;text-align: center;font-size: 3vw; vertical-align: middle;display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 1200px) {
+  .facebookicon{
+    position: absolute;
+    right: 26%;
+    top: 8vh;
+  }
+  .wechaticon{
+    position: absolute;
+    right: 10%;
+    top: 8vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .facebookicon{
+    position: absolute;
+    right: 50%;
+    top: 8vh;
+  }
+  .wechaticon{
+    position: absolute;
+    right: 20%;
+    top: 8vh;
+  }
+  .roundblackbutton{
+    width: 30vw;height: 30vw;
+  }
+}
+@media screen and (min-width: 750px) {
+  .mobileleftsection{
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .leftsection{
+    display: none;
+  }
+  .roundblackbutton{
+    width: 35vw;height: 35vw;font-size: 5vw;
+  }
 }

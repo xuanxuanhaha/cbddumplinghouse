@@ -1,0 +1,14 @@
+.easilogo{
+  margin-top: -15vh;margin-left: 85vw;width: 12vw;
+}
+
+@media screen and (max-width: 990px) {
+  .easilogo{
+    width: 15vw;margin-left: 80vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .easilogo{
+    width: 130px;margin-top: -26vh;margin-left: 42.5vw;
+  }
+}

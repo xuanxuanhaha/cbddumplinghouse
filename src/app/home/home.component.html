@@ -2,110 +2,142 @@
 <app-navbar></app-navbar>
 
 <!--content start-->
-<div id="first_id" >
+<div id="first_id" class="desktopbanner">
   <div >
     <img class="homebannerimg" src="../../assets/home/banner.png" alt="first bg" >
-    <!--transparent grey background and wording-->
-<!--    <div style="width: 40%;height: auto;background: rgba(	52, 62, 71,0.5);position: absolute;top: 200px;color: white;padding:70px 30px 70px 10px">-->
-<!--      <b class="title" >-->
-<!--        WELCOME TO-->
-<!--      </b>-->
-<!--      <br>-->
-<!--      <b class="title">-->
-<!--        ZOO BAR & GRILL-->
-<!--      </b>-->
-<!--      <br>-->
-<!--      <br>-->
-<!--      <br>-->
-<!--      <br>-->
-<!--      <p class="contentwords">-->
-<!--        Casual Diverse Dining Menu, DJs & Live Performances in an Eclectic Space. Our Bar is Massive,-->
-<!--        building on the History of the Location, then taken up a notch with the broadest array of-->
-<!--        Cocktails/Spirits/Wine & Tap Beer in Civic. Our Grill fires up early and stays on till late.-->
-<!--        Follow the Herd.-->
-
-<!--      </p>-->
-<!--    </div>-->
-
   </div>
 </div>
+
 
 <!--First line two photos in the left and right-->
-<div class="" id="second_id" style="width: 100%;margin-left: 0;">
+<div class="mobilebanner" id="second_id" style="width: 100%;margin-left: 0;">
   <img class="firstleftphoto" src="../../assets/home/banner.png" alt="tiger" >
-  <img class="firstrightphoto" src="../../assets/home/banner.png" alt="monkey" style="margin-left: 33.333%">
 </div>
 
-<!--First line middle word nightclub-->
-<div style="position: absolute;top: 100vh;left: 33.333%;width: 33.34%">
-  <div style="position: absolute;background: rgba(46,139,87,1);width:100%;height: 65vh;text-align: center;color: white;display: table;padding-left: 10%;padding-right: 10%">
-    <div style="height: auto;margin: auto;display: table-cell;
-    vertical-align: middle;">
-      <h1 class="contenttitle">INTRODUCTION</h1>
-      <br>
-      <p style="font-size: 20px">
-        Zoo Bar & Grill
-        <br>
-        creates an enchanting experience keeping the urban lifestyle alive in the heart of the city.
-        <br>
-        With a diverse range of food, drinks and culture, Zoo Bar & Grill is your entertainment destination.
-      </p>
-      <br>
-    </div>
+
+
+<div class="middleblackwholeborder">
+  <div class="wordingofcontent">
+  <h1 class="wordingh1">MENU</h1>
+  <p class="wordingp" style="font-weight: 200">
+    Everything prepared with high quality, rich taste and made fresh on Order. Healthy, Delicious and
+    made very Special, to steal all your hearts. Our experienced Chefs ensure to give you the best
+    and make your every order with us, the memorable moment.
+  </p>
   </div>
 </div>
 
 
 
-<!--Second line dish in the right-->
-<div class="row" style="width: 100%;margin-left: 0;margin-top: -1px">
-  <img class="secondrightphoto" src="../../assets/home/banner.png" alt="dishes" style="margin-left: 33.333%">
+<!--&lt;!&ndash;First line middle word nightclub&ndash;&gt;-->
+<!--<div style="position: absolute;top: 100vh;left: 33.333%;width: 33.34%">-->
+<!--  <div style="position: absolute;background: rgba(46,139,87,1);width:100%;height: 65vh;text-align: center;color: white;display: table;padding-left: 10%;padding-right: 10%">-->
+<!--    <div style="height: auto;margin: auto;display: table-cell;-->
+<!--    vertical-align: middle;">-->
+<!--      <h1 class="contenttitle">INTRODUCTION</h1>-->
+<!--      <br>-->
+<!--      <p style="font-size: 20px">-->
+<!--        Zoo Bar & Grill-->
+<!--        <br>-->
+<!--        creates an enchanting experience keeping the urban lifestyle alive in the heart of the city.-->
+<!--        <br>-->
+<!--        With a diverse range of food, drinks and culture, Zoo Bar & Grill is your entertainment destination.-->
+<!--      </p>-->
+<!--      <br>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+
+<!--&lt;!&ndash;Second line dish in the right&ndash;&gt;-->
+<!--<div class="row" style="width: 100%;margin-left: 0;margin-top: -1px">-->
+<!--  <img class="secondrightphoto" src="../../assets/home/banner.png" alt="dishes" style="margin-left: 33.333%">-->
+<!--</div>-->
+
+
+
+<!--&lt;!&ndash;Second line middle word nightclub&ndash;&gt;-->
+<!--<div style="position: absolute;top: 165vh;left: 0;width: 33.34%">-->
+<!--  <div style="position: absolute;background: rgba(46,139,87,1);width:100%;height: 65vh;text-align: center;color: white;padding-left: 10%;padding-right: 10%;display: table">-->
+<!--    <div style="height: auto;margin: auto;display: table-cell;-->
+<!--    vertical-align: middle;">-->
+<!--      <h1 class="contenttitle">MENU</h1>-->
+<!--      <hr style="border: 2px solid white;width: 80px">-->
+<!--      <p style="font-size: 20px">-->
+<!--        Zoo Bar & Grill-->
+<!--        <br>-->
+<!--        is known for throwing the best parties, and that can be hungry work!-->
+<!--        <br>-->
+<!--        We also pride ourselves on a diverse and delicious food menu, offering choice and value.-->
+<!--      </p>-->
+<!--      <br>-->
+<!--      <button class="btn" [routerLink]="['/menu']" style="border: 2px solid white;border-radius: 0;background: transparent;font-size: 20px;color: white;width: 120px">Menu</button>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+
+<!--&lt;!&ndash;Third line dish with drinks in the left&ndash;&gt;-->
+<!--<div class="row" style="width: 100%;margin-left: 0;margin-top: -1px">-->
+<!--  <img class="thirdleftphoto" src="../../assets/home/banner.png" alt="Paris" >-->
+<!--</div>-->
+
+
+<!--&lt;!&ndash;Second line middle word nightclub&ndash;&gt;-->
+<!--<div style="position: absolute;top: 230vh;left: 66.666%;width: 33.34%">-->
+<!--  <div style="position: absolute;background: rgba(46,139,87,1);width:100%;height: 65vh;text-align: center;color: white;padding-left: 10%;margin-top: -1px;padding-right: 10%;display: table">-->
+<!--    <div style="height: auto;margin: auto;display: table-cell;-->
+<!--    vertical-align: middle;">-->
+<!--      <h1 class="contenttitle">DRINKS</h1>-->
+<!--      <hr style="border: 2px solid white;width: 80px">-->
+<!--      <p style="font-size: 18px">-->
+
+<!--        Our Bar is Massive, building on the History of the Location, then taken up a notch with the broadest array of Cocktails/Spirits/Wine & Tap Beer in Civic.-->
+<!--      </p>-->
+<!--      <br>-->
+<!--      <button class="btn" [routerLink]="['/drink']" style="border: 2px solid white;border-radius: 0;background: transparent;font-size: 20px;color: white;width: 120px">Drinks</button>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<div class="middleblackwholeborder">
+  <div class="wordingofcontent">
+    <h1 class="wordingh1">CONTACT US</h1>
+    <p class="wordingp" style="font-weight: 200">
+      Shop FG13C, 148 Bunda St, Canberra ACT 2601
+      <br>
+      (02) 6262 8866
+      <br>
+      Mon-Sun 11:30-15:00, 17:00-22:00
+    </p>
+  </div>
 </div>
 
+<div class="right_map_section">
+  <!-- MAP AREA -->
+<!--  <div class="mapouter" style="z-index: -1">-->
+<!--    <div class="gmap_canvas">-->
+<!--      <iframe width="750" height="500" id="gmap_canvas"-->
+<!--              src="https://maps.google.com/maps?q=zoobar+and+gril&oq=zoobar+and+gril&aqs=chrome..69i57j0l7.2697j0j7&sourceid=chrome&ie=UTF-8&iwloc=&output=embed"-->
+<!--              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>-->
+<!--      <a href="https://www.embedgooglemap.net/blog/elementor-review/"></a>-->
+<!--    </div>-->
+<!--  </div>-->
 
 
-<!--Second line middle word nightclub-->
-<div style="position: absolute;top: 165vh;left: 0;width: 33.34%">
-  <div style="position: absolute;background: rgba(46,139,87,1);width:100%;height: 65vh;text-align: center;color: white;padding-left: 10%;padding-right: 10%;display: table">
-    <div style="height: auto;margin: auto;display: table-cell;
-    vertical-align: middle;">
-      <h1 class="contenttitle">MENU</h1>
-      <hr style="border: 2px solid white;width: 80px">
-      <p style="font-size: 20px">
-        Zoo Bar & Grill
-        <br>
-        is known for throwing the best parties, and that can be hungry work!
-        <br>
-        We also pride ourselves on a diverse and delicious food menu, offering choice and value.
-      </p>
-      <br>
-      <button class="btn" [routerLink]="['/menu']" style="border: 2px solid white;border-radius: 0;background: transparent;font-size: 20px;color: white;width: 120px">Menu</button>
+  <div class="mapouter">
+    <div class="gmap_canvas">
+      <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=cbd%20dumpling&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+      </iframe>
+      <a href="https://divi-discount.com/elegant-themes/">
+      elegant themes coupon
+    </a>
     </div>
   </div>
 </div>
 
 
-
-<!--Third line dish with drinks in the left-->
-<div class="row" style="width: 100%;margin-left: 0;margin-top: -1px">
-  <img class="thirdleftphoto" src="../../assets/home/banner.png" alt="Paris" >
-</div>
-
-
-<!--Second line middle word nightclub-->
-<div style="position: absolute;top: 230vh;left: 66.666%;width: 33.34%">
-  <div style="position: absolute;background: rgba(46,139,87,1);width:100%;height: 65vh;text-align: center;color: white;padding-left: 10%;margin-top: -1px;padding-right: 10%;display: table">
-    <div style="height: auto;margin: auto;display: table-cell;
-    vertical-align: middle;">
-      <h1 class="contenttitle">DRINKS</h1>
-      <hr style="border: 2px solid white;width: 80px">
-      <p style="font-size: 18px">
-
-        Our Bar is Massive, building on the History of the Location, then taken up a notch with the broadest array of Cocktails/Spirits/Wine & Tap Beer in Civic.
-      </p>
-      <br>
-      <button class="btn" [routerLink]="['/drink']" style="border: 2px solid white;border-radius: 0;background: transparent;font-size: 20px;color: white;width: 120px">Drinks</button>
-    </div>
-  </div>
-</div>
-<!--<app-footer></app-footer>-->
+<app-footer></app-footer>
