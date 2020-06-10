@@ -1,0 +1,41 @@
+.navbar-wholeborder{
+  margin-top: 0;
+  height: 20vh;
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+.leftsection{
+  width: 20%;
+  height: 20vh;
+  border-right: 2px solid grey;
+  position: absolute;
+}
+
+
+.facebookicon{
+  position: absolute;
+  right: 16%;
+  top: 8vh;
+}
+.wechaticon{
+  position: absolute;
+  right: 7%;
+  top: 8vh;
+}
+
+.tableofnavbar {
+  display: table;
+  /*width: 50%; !*Optional*!*/
+  /*table-layout: fixed; !*Optional*!*/
+  /*border-spacing: 10px; !*Optional*!*/
+  margin: auto;
+}
+.tabletr{
+  text-align: center;
+}
+.eachsection{
+  width: 180px;
+  padding-top: 5vh;
+  font-size: 25px;
+}
