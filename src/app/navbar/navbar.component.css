@@ -20,7 +20,7 @@
 
 .facebookicon{
   position: absolute;
-  right: 16%;
+  right: 20%;
   top: 8vh;
 }
 .wechaticon{
@@ -41,7 +41,7 @@
 }
 .eachsection{
   width: 180px;
-  padding-top: 5vh;
+  padding-top: 3vh;
   font-size: 25px;
 }
 .roundblackbutton{
@@ -89,5 +89,17 @@
   }
   .roundblackbutton{
     width: 35vw;height: 35vw;font-size: 5vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .facebookicon{
+    position: absolute;
+    right: 60%;
+    top: 8vh;
+  }
+  .wechaticon{
+    position: absolute;
+    right: 20%;
+    top: 8vh;
   }
 }
