@@ -10,8 +10,13 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
-  scroll(element) {
-    window.scrollTo(element.yPosition);
+gotomenu(){
+  document.getElementById('menu').scrollIntoView();
+}
+  gotocontact(){
+    document.getElementById('contact').scrollIntoView();
   }
+
 }
