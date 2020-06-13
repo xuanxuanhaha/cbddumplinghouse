@@ -1,7 +1,9 @@
 .easilogo{
   margin-top: -15vh;margin-left: 85vw;width: 8vw;
 }
-
+.onlineorder{
+  font-size: 25px;margin-top: -19vh;color: white;position: absolute;margin-left: 85vw;
+}
 @media screen and (max-width: 990px) {
   .easilogo{
     width: 10vw;margin-left: 85vw;
