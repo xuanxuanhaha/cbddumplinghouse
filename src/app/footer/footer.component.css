@@ -1,22 +1,37 @@
 .easilogo{
-  margin-top: -15vh;margin-left: 85vw;width: 8vw;
+  margin-top: -15vh;margin-left: 85vw;width: 120px;
 }
 .onlineorder{
-  font-size: 25px;margin-top: -19vh;color: white;position: absolute;margin-left: 85vw;
+  font-size: 20px;margin-top: -19vh;color: white;position: absolute;margin-left: 85vw;
+}
+.copyrightback{
+  width: 100%;height: 28vh;background-color: black;text-align: center;color: white;padding-top: 18vh
 }
 @media screen and (max-width: 990px) {
   .easilogo{
     width: 10vw;margin-left: 85vw;
+  }
+  .onlineorder{
+    margin-left: 84vw;
   }
 }
 @media screen and (max-width: 800px) {
   .easilogo{
     width: 80px;margin-top: -24vh;margin-left: 42.5vw;
   }
+  .copyrightback{
+    padding-top: 23vh;
+  }
+  .onlineorder{
+    margin-top: -23vh;margin-left: 40vw;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .easilogo{
     margin-left: 40vw;
+  }
+  .onlineorder{
+    margin-left: 36vw;
   }
 }
