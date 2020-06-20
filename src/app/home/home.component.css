@@ -28,7 +28,12 @@
   right: 7%;
   top: 8vh;
 }
-
+.orderonline{
+  background-color: #fad949;font-size: 25px;color: black
+}
+.onlineorderwhole{
+  position: absolute;top: 6vh;right: 5%;
+}
 .tableofnavbar {
   display: table;
   /*width: 50%; !*Optional*!*/
@@ -286,6 +291,21 @@
   .desktopbanner{
     display: none;
   }
+  .onlineorderwhole{
+    top: 21vh;
+    width: 30vw;
+    left: 35vw;
+  }
+  .orderonline{
+    width: 100%;
+  }
+  .navbar-wholeborder{
+    height: 28vh;
+  }
+  .leftsection{
+    height: 28vh;
+  }
+
 }
 @media screen and (max-width: 750px) {
   .wordingh1{
@@ -294,11 +314,32 @@
   .wordingp{
     font-size: 20px;
   }
-
+  .facebookicon{
+    top:18vh
+  }
+  .wechaticon{
+    top: 18vh;
+  }
+  .onlineorderwhole{
+    width: 40vw;
+    left: 30vw;
+  }
 }
 @media screen and (max-width: 600px) {
   .firstleftphoto{
     height: 40vh;
     width: 100%;
+  }
+  .onlineorderwhole{
+    width: 50vw;
+    left: 25vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .orderonline{
+    font-size: 20px;
+  }
+  .onlineorderwhole{
+    left: 22vw;
   }
 }
