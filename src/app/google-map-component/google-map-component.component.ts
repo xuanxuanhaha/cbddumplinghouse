@@ -65,8 +65,8 @@ export class GoogleMapComponentComponent implements OnInit {
     circle = new google.maps.Circle({
       map,
       radius: 5000,
-      fillColor: 'red',
-      strokeColor: '#fad949',
+      fillColor: '#ffd800',
+      strokeColor: '#ffd800',
       strokeWeight: 2
     });
 

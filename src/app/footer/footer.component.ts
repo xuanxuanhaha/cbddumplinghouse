@@ -11,5 +11,7 @@ export class FooterComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  goorderonline(){
+    window.open('https://canberra.easi.com.au/en/easiCanberra.html', '_blank');
+  }
 }
